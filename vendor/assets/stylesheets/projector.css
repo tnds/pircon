@@ -1,0 +1,9 @@
+body {
+  /*  overflow:hidden;*/
+}
+.line-numbers {
+    position:absolute;
+}
+.line-number{
+    display:block;
+}
