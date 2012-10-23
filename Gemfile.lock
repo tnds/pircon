@@ -1,13 +1,14 @@
 GIT
   remote: git://github.com/refinery/refinerycms-search.git
-  revision: 2b4f16ac10d891e436845367cc9c3c78ea65d2de
+  revision: b9a1ba72384da98f430c7efb698acae1d13a04f4
   branch: 2-0-stable
   specs:
     refinerycms-search (2.0.0)
       refinerycms-core (~> 2.0.4)
 
-PATH
-  remote: vendor/extensions
+GIT
+  remote: git://github.com/tnds/refinerycms-projectors.git
+  revision: 468033311b74e7142e5e0e9acc92971036c3f36a
   specs:
     refinerycms-projectors (1.0)
       refinerycms-core (~> 2.0.8)
