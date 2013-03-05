@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121023132454) do
+ActiveRecord::Schema.define(:version => 20130302161252) do
 
   create_table "refinery_image_page_translations", :force => true do |t|
     t.integer  "refinery_image_page_id"
@@ -116,6 +116,8 @@ ActiveRecord::Schema.define(:version => 20121023132454) do
     t.integer  "position"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.boolean  "refresh"
+    t.integer  "interval"
   end
 
   create_table "refinery_resources", :force => true do |t|
