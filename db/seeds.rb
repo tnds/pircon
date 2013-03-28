@@ -17,3 +17,6 @@ Refinery::Search::Engine.load_seed
 
 # Added by Refinery CMS Projectors extension
 Refinery::Projectors::Engine.load_seed
+
+# Added by Refinery CMS Memberships engine
+Refinery::Memberships::Engine.load_seed
